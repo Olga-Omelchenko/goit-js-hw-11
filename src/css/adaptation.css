@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form input[type="text"] {
+        width: 100%;
+        max-width: 90vw;
+    }
+
+    .form button {
+        width: 100%;
+        max-width: 90vw;
+    } }
