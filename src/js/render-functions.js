@@ -26,10 +26,13 @@ export function clearGallery() {
   document.querySelector('.gallery').innerHTML = '';
 }
 
-export function showLoader(loader) {
+export function showLoader() {
+  const loader = document.querySelector('.loader');
   loader.classList.remove('hidden');
 }
 
-export function hideLoader(loader) {
+export function hideLoader() {
+  const loader = document.querySelector('.loader');
   loader.classList.add('hidden');
 }
+
