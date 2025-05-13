@@ -26,10 +26,10 @@ export function clearGallery() {
   document.querySelector('.gallery').innerHTML = '';
 }
 
-export function showLoader() {
-  document.querySelector('.loader').classList.remove('hidden');
+export function showLoader(loader) {
+  loader.classList.remove('hidden');
 }
 
-export function hideLoader() {
-  document.querySelector('.loader').classList.add('hidden');
+export function hideLoader(loader) {
+  loader.classList.add('hidden');
 }
